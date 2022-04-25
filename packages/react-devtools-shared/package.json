@@ -2,6 +2,8 @@
   "private": true,
   "name": "react-devtools-shared",
   "version": "0.0.0",
+  "main": "./dist/exports.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "update-mock-source-maps": "babel-node --presets=@babel/preset-env,@babel/preset-flow ./src/hooks/__tests__/updateMockSourceMaps.js",
     "build": "yarn run build:webpack && yarn run build:types",
