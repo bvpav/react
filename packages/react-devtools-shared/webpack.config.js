@@ -89,12 +89,7 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         options: {
-          configFile: resolve(
-            __dirname,
-            '..',
-            'react-devtools-shared',
-            'babel.config.js',
-          ),
+          configFile: resolve(__dirname, 'babel.config.js'),
         },
       },
     ],
